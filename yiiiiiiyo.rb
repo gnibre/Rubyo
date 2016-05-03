@@ -169,6 +169,8 @@ generate_china_index("GE")+
 generate_china_index("DATA")+
 generate_china_index("NXPI")+
 generate_china_index("PHG")+
+generate_china_index("SCTY")+
+generate_china_index("UWTI")+
 
 ""+
 IO.read("pages/page.tail")

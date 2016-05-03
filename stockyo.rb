@@ -15,7 +15,7 @@ thestreet_url = "http://www.thestreet.com/quote/#{stockname}.html?omorig=header"
 urls.push(thestreet_url)
 
 bloomberg_url = "http://www.bloomberg.com/quote/#{stockname}:US"
-# urls.push(bloomberg_url)
+urls.push(bloomberg_url)
 
 nasdaq_url = "http://www.nasdaq.com/symbol/#{stockname}"
 urls.push(nasdaq_url)
@@ -39,6 +39,10 @@ urls.each { |url|
 
 
 
+
+#http://www.marketwatch.com/investing/stock/uwti
+
+# http://www.zacks.com/stock/quote/MXL
 
 
 

@@ -6,6 +6,9 @@ puts "start"
 
 puts __FILE__
 
+puts File.dirname(__FILE__)
+
+dn = File.dirname(__FILE__)
 
 
 puts "ok"
@@ -14,7 +17,11 @@ puts "ok"
 
 # HLClass.hi
 
-require './lib/emailer'
+# require '/lib/emailer'
+
+require dn+'/lib/lhknife'
+
+# lhknifef("web")
 
 # require 'lib/emailer'
 
